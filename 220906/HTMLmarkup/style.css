@@ -1,0 +1,14 @@
+* {
+    margin: initial;
+    box-sizing: border-box;
+}
+
+header {
+    width: auto;
+    height: 101px;
+    background-color: beige;
+    display: flex;
+    flex-direction: row;
+    
+}
+
