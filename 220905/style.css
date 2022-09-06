@@ -25,7 +25,7 @@ body {
 
 .contents {
     width: 300px;
-    height: 260px;
+    /* height: 260px; */
     background-color: #8B5A36;
     font-size: initial;
     font-weight: bold;
