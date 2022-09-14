@@ -1,0 +1,64 @@
+p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    font-family: 'Spoqa Han Sans Neo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.wrapper {
+    margin: 100px auto;
+}
+
+.login-form {
+    padding: 19px 16px 18px 16px;
+    background-color: white;
+    border: 1px solid #DBDBDB;
+    border-radius: 5px;
+}
+
+.login-form-btn {
+    display: block;
+    padding: 14px 0;
+    margin-top: 16px;
+    text-align: center;
+    color: white;
+    background-color: #711BFF;
+    border-radius: 4px;
+}
+
+.login-form-btn img {
+    vertical-align: top;
+    margin-right: 7px;
+}
+
+.login-form-sub {
+    overflow: hidden;
+    margin-top: 17px;
+    color: #767676;
+}
+
+.login-form-sub img{
+    vertical-align: bottom;
+}
+
+.sub-idpw {
+    float: left;
+}
+
+.sub-join {
+    float: right;
+}
+
+.sub-btn {
+    color: #767676;
+    margin: 0 3px;
+}
