@@ -205,3 +205,43 @@ body {
     margin-top: 20px;
     text-align: center;
 }
+
+
+/* modal */
+.content-modal {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 68px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+}
+
+.modal-title {
+    font-family: 'OTEnjoystoriesBA';
+    font-size: 36px;
+    line-height: 40px;
+    color: #5B2386;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.modal-title > strong {
+    font-size: 96px;
+    line-height: 106px;
+    margin-top: 4px;
+}
+
+.modal-licat {
+    margin-top: 29px;
+}
+
+.btn-go {
+    margin-top: 74px;
+    width: 508px;
+    height: 66px;
+}
