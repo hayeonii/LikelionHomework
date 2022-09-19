@@ -1,3 +1,7 @@
+body, h1, p {
+	margin: 0;
+}
+
 :root {
     font-family: 'Montserrat', sans-serif;
 	/*
@@ -6,6 +10,61 @@
 	*/
 }
 
+.hidden {
+	position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
 .wrapper {
+	background-color: lavender;
 	width: 1080px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: 100px auto;
+}
+
+.header {
+	background-color: lightblue;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.contents {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.contents-rest, .contents-scrap {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+}
+
+.contents-craft {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 100%;
+}
+
+.side-img {
+	width: 26%;
+	margin: 0;
+	background-color: lightslategray;
+}
+
+.side-img-img {
+	width: 100%;
+}
+
+.list {
+	background-color: lightcoral;
+	width: 100%;
 }
