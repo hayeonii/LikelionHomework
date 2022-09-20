@@ -100,10 +100,10 @@ body {
 }
 
 .side-img {
-	max-width: 26%;
 	margin: 0;
 	position: relative;
 	display: flex;
+	flex: 0 0 26%;
 	align-items: center;
 	justify-content: center;
 	overflow: hidden;
