@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="wrapper">
-        <section class="login-form">
-
+    <!-- <div class="wrapper"> -->
+        <article class="login-form">
+            <h2 class="hidden">위니브 로그인</h2>
             <p class="login-form-txt">더 편리해진 위니브에 오신 것을 환영합니다.</p>
 
             <a class="login-form-btn" href="">
@@ -20,18 +20,32 @@
 
             <div class="login-form-sub">
                 <div class="sub-idpw">
-                    <img src="img/idpw.png" alt="자물쇠그림">
+                    <img src="img/idpw.png" alt="">
                     <a class="sub-btn" href="">아이디</a>
                     |
                     <a class="sub-btn"  href="">비밀번호찾기</a>
                 </div>
 
                 <div class="sub-join">
-                    <img src="img/join.png" alt="사람그림">
+                    <img src="img/join.png" alt="">
                     <a class="sub-btn"  href="">회원가입</a>
                 </div>
             </div>
-        </section>
-    </div>
+        </article>
+    <!-- </div> -->
 </body>
 </html>
+
+<!-- 
+    불필요한 태그 없애기
+    안쓰는 클래스 없애기
+    디자인적인 img 태그 가상요소로 사용하는 것이 좋다
+    html validator
+-->
+
+<!-- 
+        코드리뷰
+    - section에 heading tag
+    - 로그인 버튼 Font-weight 맞춰 주는 게 좋을 것 같음
+    - CSS 속성 중복되지 않게 (inherit 주는 게 좋을 듯)
+-->

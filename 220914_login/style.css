@@ -6,6 +6,15 @@ a {
     text-decoration: none;
 }
 
+.hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+}
+
 :root {
     font-family: 'Spoqa Han Sans Neo';
     font-style: normal;
@@ -14,11 +23,9 @@ a {
     line-height: 15px;
 }
 
-.wrapper {
-    margin: 100px auto;
-}
-
 .login-form {
+    margin: 100px auto;
+    width: 350px;
     padding: 19px 16px 18px 16px;
     background-color: white;
     border: 1px solid #DBDBDB;
@@ -30,6 +37,7 @@ a {
     padding: 14px 0;
     margin-top: 16px;
     text-align: center;
+    font-weight: 500;
     color: white;
     background-color: #711BFF;
     border-radius: 4px;
@@ -59,6 +67,6 @@ a {
 }
 
 .sub-btn {
-    color: #767676;
+    color: inherit;
     margin: 0 3px;
 }
