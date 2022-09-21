@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>성배 레이아웃 그리기 - Flex</title>
+    <style>
+        section {
+            width: 900px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .header {
+            background-color: lightblue;
+            height: 50px;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: row;
+            height: 800px;
+        }
+
+        .main {
+            background-color: lightcoral;
+            flex-grow: 2;
+            order: 2;
+        }
+
+        .aside-a{
+            background-color: palegreen;
+            flex-grow: 1;
+            order: 1;
+        }
+
+        .aside-b {
+            background-color: palegreen;
+            flex-grow: 1;
+            order: 3;
+        }
+
+        .footer {
+            background-color: palegoldenrod;
+            height: 50px;
+        }
+
+    </style>
+</head>
+<body>
+    <section>
+        <header class="header">header</header>
+        <div class="container">
+            <main class="main">main</main>
+            <aside class="aside-a">aside-a</aside>
+            <aside class="aside-b">aside-b</aside>    
+        </div>
+        <footer class="footer">footer</footer>
+    </section>
+</body>
+</html>
