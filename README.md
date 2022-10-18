@@ -1,9 +1,12 @@
-# LikelionHomework
+# 🔗 멋쟁이 사자처럼 과제
+### 멋사 FE3S에서 진행한 과제 목록입니다.
+👉🏻 과제 구현 범위를 체크합니다. 
 
-    1. 종찬님 CSS 과제 - animal (220905)
-    2. 모두의 HTML/CSS 마크업 과제 (220906)
-    3. 종찬님 CSS 과제 - bucket list (220913)
-    4. 로그인 CSS 과제 (220914)
-    5. 1만 시간의 법칙 (220915~)
-    6. 성배 레이아웃 (220917)
-    7. 종찬님 CSS 과제 - zigzag (220917~)
+|Project|HTML/CSS|반응형|JS|
+|---|:---:|:---:|:---:|
+|[animal](https://hayeonii.github.io/LikelionHomework/220905/)|✅|
+|[bucket list](https://hayeonii.github.io/LikelionHomework/%EC%9E%84%ED%95%98%EC%97%B0_bucketlist/)|✅
+|[weniv login form](https://hayeonii.github.io/LikelionHomework/220914_login/)|✅|✅
+|[1만 시간의 법칙](https://hayeonii.github.io/LikelionHomework/10000hours/)|✅
+|[zigzag](https://hayeonii.github.io/LikelionHomework/%EC%9E%84%ED%95%98%EC%97%B0_zigzag/)|✅
+
